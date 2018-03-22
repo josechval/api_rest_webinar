@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/josechval/api_rest_webinar/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/josechval/api_rest_webinar/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Presentación y notebooks del webinar sobre desarrollo y consumo de API basadas en REST.
+El video de la presentación está disponible en https://www.youtube.com/watch?v=qhqCJSmdKvY.
+Este repositorio contiene las notebooks de Jupyter, los datos y el archivo HTML correspondientes a:
+* La presentación del webinar escrita como notebook de Jupyter ([RESTful.ipynb](RESTful.ipynb)) así como en HTML ([RESTful.slides.html](RESTful.slides.html)).
+* Un servidor simple de API REST basado en Flask [servidor_api_rest.pynb](servidor_api_rest.ipynb).
+* Un cliente que consume la API REST del servidor basado en la biblioteca requests [cliente_api_rest.ipynb](cliente_api_rest.ipynb).
+* Un cliente que consume información de la API de Twitter utilizando la biblioteca requests-oauthlib [acceso_api_twitter.ipynb](acceso_api_twitter.ipynb).
